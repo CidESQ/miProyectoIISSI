@@ -1,0 +1,43 @@
+/* General Styles */
+.body-style{
+    background: papayawhip;
+    color: #a0a0a0;
+}
+/* Main styles gallery */
+main .gallery-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+main div .photo-block{
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: #6610f2;
+}
+div .photo-title{
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: underline;
+    background: #0c4128;
+}
+div .photo-score{
+    background: #0a53be;
+}
+div .photo-image{
+    width: 100%;
+    height: auto;
+}
+/* Styles Register */
+input, select{
+    background: #6610f2;
+    border-color: #0c4128;
+    color: red;
+}
+.input-group > label{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+.input-group{
+    margin-bottom: 0.5em;
+}
