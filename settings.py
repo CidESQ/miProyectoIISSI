@@ -9,9 +9,9 @@ DEBUG_ENABLED = False
 DB_CONN = {
     "host": "127.0.0.1",
     "port": 3306,
-    "username": "iissi_user",
-    "password": "iissi$user",
-    "database": "my_database",
+    "username": "admin",
+    "password": "emmanuel",
+    "database": "gallery",
 }
 
 # The sequence of SQL scripts located in the sql/ folder that must
